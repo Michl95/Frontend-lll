@@ -23,7 +23,7 @@ const productos = [
   },
 ];
 
-function App() {
+export const Productos = () => {
   return (
     <div className={styles.producto_container}>
       <h1 className={styles.titulo}>Productos</h1>
@@ -54,7 +54,6 @@ function App() {
         ))}
       </ul>
     </div>
-  );
-}
+  )
+};
 
-export default App;
