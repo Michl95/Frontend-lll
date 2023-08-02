@@ -1,0 +1,39 @@
+
+.titulo{
+    color: blue;
+    margin-bottom: 5rem;
+    font-size: 7rem;
+}
+
+.producto_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    width: 8rem;
+
+}
+
+.imagen:hover{
+    width: 9rem;
+    transition: ease-in-out 0.500s;
+}
+
+.lista_container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 40vh;
+}
+
+.producto{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
