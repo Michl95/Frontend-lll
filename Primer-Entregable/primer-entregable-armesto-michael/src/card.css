@@ -1,8 +1,15 @@
 .card {
     padding: 2em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.55);
     margin-top: 2rem;
+    border-radius: 1rem;
+  }
+
+  .error{
+    color: red !important;
+    border: 1px solid red !important;
   }
