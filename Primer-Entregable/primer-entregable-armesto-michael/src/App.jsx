@@ -21,7 +21,7 @@ export const App = () => {
     const cleanNombre = nombre.trim().toLowerCase();
     const cleanApellido = apellido.trim().toLowerCase();
 
-    if(cleanNombre.length <= 1 || cleanApellido.length <= 1)  {
+    if(cleanNombre.length < 3 || cleanApellido.length < 6)  {
       setError(true);
       setSubmitted(true);
     } else {
