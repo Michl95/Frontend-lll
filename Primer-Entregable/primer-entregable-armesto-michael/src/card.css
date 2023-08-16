@@ -13,3 +13,7 @@
     color: red !important;
     border: 1px solid red !important;
   }
+
+  .error-text{
+    color: red !important;
+  }

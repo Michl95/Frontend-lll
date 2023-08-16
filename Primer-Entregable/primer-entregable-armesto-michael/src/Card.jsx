@@ -7,7 +7,7 @@ export const Card = ({ nombre, apellido, mensaje}) => {
       {mensaje && (
         <>
           <h4>Datos NO recibidos</h4>
-          <p>{mensaje}</p>
+          <p className='error-text' >{mensaje}</p>
         </>)}
       {!mensaje && (
         <>
